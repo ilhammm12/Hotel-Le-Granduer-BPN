@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HOME - Hotel Le Grandeur Balikpapan</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="asset/icon/fontawesome/css/all.css">
+	<link rel="stylesheet" href="asset/css/bulma.min.css">
+    <link rel="stylesheet" href="asset/css/design.css">
+</head>
+<body>
+    <header>
+    	<nav class="navbar" role="navigation" aria-label="main navigation">
+    		<div class="container">
+				<div class="navbar-brand">
+				    <a class="navbar-item" href="index.html">
+				    	<span>
+					    	<h3 class="title is-size-3 has-text-warning cinzel-r">Le Grandeur</h3>
+					    	<p class="subtitle is-size-7 has-text-grey-dark cinzel-r">Balikpapan City</p>
+				    	</span>
+				    </a>
+				    <a role="button" class="navbar-burger burger" id="ini-burger" onclick="navBurger()" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+				    	<span aria-hidden="true"></span>
+				    	<span aria-hidden="true"></span>
+				    	<span aria-hidden="true"></span>
+				    </a>
+				</div>
+	  			<div id="navbarBasicExample" class="navbar-menu">
+				    <div class="navbar-end">
+					    <a href="index.html" class="navbar-item">Home</a>
+					    <a href="page/aboutus.html" class="navbar-item">About us</a>
+					    <a href="page/gallery.html" class="navbar-item">Gallery</a>
+					    <a href="page/Fasilitas&membership.html" class="navbar-item">Membership & Fasility</a>
+					    <a href="page/contactus.html" class="navbar-item">Contact us</a>
+				    </div>
+	  			</div>
+    		</div>
+		</nav>
+	    
+	    <figure class="header-home">
+			<div class="carousel-wrapper">
+				<span id="item-1"></span>
+				<span id="item-2"></span>
+				<span id="item-3"></span>
+			  	<div class="carousel-item item-1">
+				    <a class="arrow arrow-prev" href="#item-3"></a>
+				    <a class="arrow arrow-next" href="#item-2"></a>
+		  		</div>
+				  
+	  			<div class="carousel-item item-2">
+				    <a class="arrow arrow-prev" href="#item-1"></a>
+				    <a class="arrow arrow-next" href="#item-3"></a>
+	 			</div>
+				  
+		  		<div class="carousel-item item-3">
+				    <a class="arrow arrow-prev" href="#item-2"></a>
+				    <a class="arrow arrow-next" href="#item-1"></a>
+			  	</div>
+			</div>
+		    <figcaption>
+		    	<div>
+			    	<h1 class="title is-size-1 cinzel-s has-text-light">TRAVEL MORE REWARDED</h1>
+			    	<p class="subtitle is-size-5 has-text-light">Enjoy much more beyond golden circle exclusive offers</p>
+		    	</div>
+	            <form action="">
+	            	<div class="field">
+	            		<div class="select">
+			                <select>
+			                    <option value="" disabled selected>Jenis Kamar</option>
+			                    <option value="">STANDARD</option>
+			                    <option value="">SUITE</option>
+			                    <option value="">DELUXE</option>
+			                </select>
+						</div>
+	            	</div>
+	            	<div class="field">
+			      		<div class="control">
+	                		<input placeholder="Check in" class="input" type="text" onfocus="(this.type='date')" onblur="(this.type='text')">
+			      		</div>
+			    	</div>
+	            	<div class="field">
+			      		<div class="control">
+	                		<input placeholder="Check out" class="input" type="text" onfocus="(this.type='date')" onblur="(this.type='text')">
+			      		</div>
+			    	</div>
+			    	<button class="button is-warning" onclick="alert('Kamar tersedia')">Cek Kamar</button>
+	            </form>
+		    </figcaption>
+	    </figure>
+	</header>
+	<main>
+		<div class="container">
+			<article id="aboutus-main">
+				<div class="columns">
+					<div class="column is-5">
+						<img src="asset/img/uns2.jpg" alt="">
+					</div>
+					<div class="column">
+					    <h6 class="title is-size-6 has-text-grey-dark">A brief description</h6>
+					    <h2 class="subtitle is-size-2 has-text-warning cinzel-r">Le Grandeur Balikpapan</h2>
+					    <p class="has-text-grey has-text-justified">Hotel Le Grandeur Balikpapan merupakan salah satu hotel terbaik di Balikpapan dengan suasana dan furniture-nya terkesan antik serta menawarkan keseimbangan antara akomodasi, pengalaman, dan harmoni.
+					    <br>	<br>
+				    	 Le Grandeur memberikan fasilitas yang cukup lengkap, dimana dengan letak yang strategis akses langsung ke pantai dengan view yang indah dan menarik, Sajian sarapan yang lezat, dan lokasi walking distance dari tengah kota tidak jauh dari bandara dan mall.</p>
+					    <br>
+					    <a href="page/aboutus.html" class="button is-small is-warning">Read more</a>
+					</div>
+				</div>
+			</article>    
+			<br>
+			<br>
+		    <section id="sharemoment-main">
+		    	<h2 class="title is-size-2 cinzel-r">get the experience</h2>
+		    	<h2 class="subtitle is-size-6 has-text-grey">Share your moments on instagram with <span class="has-text-warning">#LeGrandeurbpn</span></h2>
+				<p></p>
+				<div class="container-image">
+					<div class="gambar">
+						<img src="asset/img/share-moment1.jpeg" alt="gambar" class="image">
+						<div class="middle">
+							<div class="text"><p>Ruangan nyantai dengan kolam renang yang cantik</p><p>@joko</p></div>
+						</div>
+					</div>
+					<div class="gambar">
+						<img src="asset/img/share-moment2.jpg" alt="gambar" class="image">
+						<div class="middle">
+							<div class="text"><p>Tamannya indah banget</p><p>@anwar</p></div>
+						</div>
+					</div>
+					<div class="gambar">
+						<img src="asset/img/share-moment3.jpg" alt="gambar" class="image">
+						<div class="middle">
+							<div class="text"><p>Okelah aku suka</p><p>@roni</p></div>
+						</div>
+					</div>
+					<div class="gambar">
+						<img src="asset/img/share-moment4.jpg" alt="gambar" class="image">
+						<div class="middle">
+							<div class="text"><p>Seger liatnya kalo kayak gini</p><p>@febri</p></div>
+						</div>
+					</div>
+					<div class="gambar">
+						<img src="asset/img/share-moment5.jpg" alt="gambar" class="image">
+						<div class="middle">
+							<div class="text"><p>Jaga kesehatan dengan nge-Gym</p><p>@dewi</p></div>
+						</div>
+					</div>
+					<div class="gambar">
+						<img src="asset/img/share-moment6.jpg" alt="gambar" class="image">
+						<div class="middle">
+							<div class="text"><p>Nyantai di Pantai</p><p>@maulana</p></div>
+						</div>
+					</div>
+					<div class="gambar">
+						<img src="asset/img/share-moment7.jpg" alt="gambar" class="image">
+						<div class="middle">
+							<div class="text"><p>Palayanannya bagus</p>@rio</div>
+						</div>
+					</div>
+					<div class="gambar">
+						<img src="asset/img/share-moment8.jpg" alt="gambar" class="image">
+						<div class="middle">
+							<div class="text"><p>Lobby Area-nya luas banget</p><p>@rina</p></div>
+						</div>
+					</div>
+				</div>
+	    	</section>
+		</div>
+	</main>
+	<footer class="footer">
+		<div class="container">
+			<div class="columns">
+				<div class="column is-4">
+			    	<span>
+				    	<h3 class="title is-size-3 has-text-warning cinzel-r">Le Grandeur</h3>
+				    	<p class="subtitle is-size-7 has-text-grey-light cinzel-r">Balikpapan City</p>
+			    	</span>
+			    	<br>
+					<p class="footer-links">
+						<a href="index.html" class="has-text-grey-light">Home - </a>
+						<a href="page/aboutus.html" class="has-text-grey-light">About us - </a>
+						<a href="page/gallery.html" class="has-text-grey-light">Gallery - </a>
+						<a href="page/Fasilitas&membership.html" class="has-text-grey-light">Membership & Fasility - </a>
+						<a href="page/contactus.html" class="has-text-grey-light">Contact us</a>
+					</p>
+					<p class="has-text-grey">copyright 2020 &copy; Kelompok 7 - Desain Web</p>
+				</div>
+				<div class="column is-4 is-offset-1">
+					<div>
+						<h5 class="is-size-5 has-text-grey-light">Addres</h5>
+						<p class="has-text-grey">Jl.Jendral Sudirman Damai Kota Balikpapan, Kalimantan Timur </p>
+					</div>
+					<br>
+					<div>
+						<h5 class="is-size-5 has-text-grey-light">Phone</h5>
+						<p class="has-text-grey">+62 552 520155</p>
+					</div>
+					<br>
+					<div>
+						<h5 class="is-size-5 has-text-grey-light">Email</h5>
+						<p class="has-text-grey">LeGrandeur@bpn.id</a></p>
+					</div>
+				</div>
+				<div class="column is-3">
+					<h4 class="is-size-4 has-text-grey-light">The Company</h4>
+					<p class="has-text-grey">Le Grandeur Balikpapan sits on its own extensive garden, adjoining a beautiful private sandy beach overlooking the Makassar Straits. Fifteen minutes to the East lies Balikpapan International Airport, five minutes to the West, you’ll find the town’s business center.</p>
+				</div>
+			</div>
+		</div>
+	</footer>
+  	<script type="text/javascript" src="asset/js/main.js"></script>
+</body>
+</html>
