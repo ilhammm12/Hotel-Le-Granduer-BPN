@@ -50,20 +50,30 @@
             <div class="container">
                 <div class="columns is-centered">
                     <div class="column is-4">
-                        <form action="">
+                        <form action=""  
+                        	  id="app"
+							  @submit="checkForm"
+							  method="post"
+							  novalidate="true">
+							 <p v-if="errors.length">
+							    <b class="has-text-danger">Please correct the following error(s):</b>
+							    <ul>
+							      <li v-for="error in errors" class=" has-text-danger">{{ error }}</li>
+							    </ul>
+							    </p>
                             <div class="field">
-                                <label>Name</label>
+                                <label for="name">Name</label>
                                 <div class="control">
-                                    <input class="input" type="text" placeholder="Enter full name" required>
+                                    <input id="name" class="input" type="text" placeholder="Enter full name" required v-model="name">
                                 </div>
                             </div>
                             <div class="field">
-                                <label>Email</label>
+                                <label for="email">Email</label>
                                 <div class="control">
-                                    <input class="input" type="email" placeholder="you@example.com" required>
+                                    <input id="email" class="input" type="email" placeholder="you@example.com" required v-model="email">
                                 </div>
                             </div>
-                            <label>Phone number</label>
+                            <label for="tel">Phone number</label>
                             <div class="field-body">
                                 <div class="field has-addons">
                                     <div class="control">
@@ -72,7 +82,7 @@
                                         </a>
                                     </div>
                                     <div class="control is-expanded">
-                                        <input class="input" type="tel" placeholder="Your phone number" required>
+                                        <input id="tel" class="input" type="tel" placeholder="Your phone number" required v-model="tel">
                                     </div>
                                 </div>
                             </div>
@@ -146,6 +156,7 @@
             </div>
         </div>
     </footer>
-    <script type="text/javascript" src="asset/js/main.js"></script>
+    <script type="text/javascript" src="../asset/js/vue.js"></script>
+    <script type="text/javascript" src="../asset/js/main.js"></script>
 </body>
 </html>
