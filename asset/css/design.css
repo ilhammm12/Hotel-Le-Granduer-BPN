@@ -354,7 +354,7 @@ footer.footer{
   font-size: 25pt;
   font-variant: inherit; 
   text-align: left;
-  color: #00f;
+  color: #FADA5E;
   margin: 10px;
   margin-left: 40px;
   
@@ -362,14 +362,14 @@ footer.footer{
 #article h1{
   text-align: center;
   margin: auto;
-  color: #00f;
+  color: #FADA5E;
   font-size: 40pt;
 }
 #article .ul{
   position: relative;
   margin: 30px auto 0;
   padding: 50px;
-  background: rgba(0,0,250,.1);
+  background: #808080;
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
@@ -378,9 +378,9 @@ footer.footer{
 }
 #article .lo{
   display: flex;
-  background: rgba(135,206,235,.9);
+  background: #c0c0c0;
   padding: 10px 20px;
-  color: #fff;
+  color: #000000;
   margin: 5px 0;
   transition: .5s;
   text-align: left;
@@ -389,7 +389,8 @@ footer.footer{
 #article .lo:hover{
   transform: scale(1.06);
   transition: .5s;
-  background: #ff3772;
+  background: #000000;
+  color: #FADA5E
 }
 #article li{
   padding: 0 30px;
